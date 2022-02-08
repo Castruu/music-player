@@ -13,6 +13,8 @@ body {
     border-radius: 12px;
     display: inline-block;
     text-align: center;
+    width: 390px;
+    height: 650px;
 }
 
 #album {
