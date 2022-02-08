@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music Player</title>
+</head>
+<body>
+
+    <audio id="audio" src="./tracks/stop_this_train.mp3" autoplay>
+    </audio>
+
+    <div id="container">
+        <h4 id="album">Continuum</h4>
+        <img id="poster" src="artists/continuum.jpg" alt="Continuum">
+        <h3 id="name">Stop This Train</h2>
+        <h5 id="artist">John Mayer</h5>
+
+        <input type="range" name="time" id="time" value="0" max="292.392"> 
+        <span id="current-time">0:00</span>
+        <span id="max-time">4:52</span>
+        
+        <button id="fb" onclick="fastBackward()">
+            <i class="fa fa-backward"></i>
+        </button>
+        <button id="play" onclick="play()">
+            <i id="playIco" class="fa fa-play"></i>
+        </button>
+        <button id="ff" onclick="fastFoward()">
+            <i class="fa fa-forward"></i>
+        </button>
+
+
+        <script src="./scripts/script.js"></script>
+    </div>
+
+    
+</body>
+</html> 

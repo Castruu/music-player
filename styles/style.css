@@ -1,0 +1,75 @@
+* {
+    font-family: 'Courier New', Courier, monospaces;
+}
+
+body {
+    text-align: center;
+    background-color: #1C1F3E;
+}
+
+#container {
+    background-color: #2F3253;
+    color: #A2A3AF;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+#album {
+    font-size: 24px;
+}
+
+#poster {
+    border-radius: 20px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+#artist {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#time {
+    display: block;
+    margin: 10px auto;
+    -webkit-appearance: none;
+    width: 85%;
+    background: linear-gradient(
+        90deg,
+        #16182E 0%,
+        #9F45BA 100%
+    );
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#time::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 1px;
+    height: 20px;
+    box-shadow: -400px 0 0 400px rgba(226, 226, 226, 0.548);
+}
+
+#current-time {
+    float: left;
+    margin-left: 52px;
+}
+
+#max-time {
+    float: right;
+    margin-right: 52px;
+}
+
+button {
+    background: none;
+    border: none;
+    margin: 20px 5px;
+    font-size: 30px;
+    color: purple;
+}
